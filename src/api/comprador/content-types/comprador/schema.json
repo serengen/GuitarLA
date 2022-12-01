@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compradores",
+  "info": {
+    "singularName": "comprador",
+    "pluralName": "compradores",
+    "displayName": "Compradores"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "direccion": {
+      "type": "richtext",
+      "required": true
+    },
+    "contraseña": {
+      "type": "password",
+      "required": true
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "idGuitarra": {
+      "type": "integer"
+    }
+  }
+}
